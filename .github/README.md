@@ -53,7 +53,7 @@ npm run dev
 ```
 
 to enable live reloading of the server on changes to any `.js`, `.cjs`, `.mjs`
-or `.html`files.
+or `.html` files.
 
 If you wish to include files of different extensions like `.ts` / `.tsx` or want
 to use different template engines like `handlebars`, you can modify
