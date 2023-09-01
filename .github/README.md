@@ -8,9 +8,10 @@ in virtual rooms, similar to platforms like
 using [Socket.IO](https://socket.io/)
 
 Current version : 1.0
-</div>
 
-![Chat-App](./images/screenshot.png)
+![Blip](./images/screenshot.png)
+
+</div>
 
 ---
 
@@ -30,7 +31,7 @@ npm run start
 ```
 
 and visit [`localhost:3000`](http://localhost:3000/)
-(change the port to the specified number if
+(change the port to another number if
 you include a `.env` file with a different `PORT`)
 
 ## Note
@@ -51,8 +52,8 @@ script
 npm run dev
 ```
 
-to enable live reloading of the server on changes to any `.js`, `.cjs`
-or `.mjs` files.
+to enable live reloading of the server on changes to any `.js`, `.cjs`, `.mjs`
+or `.html`files.
 
 If you wish to include files of different extensions like `.ts` / `.tsx` or want
 to use different template engines like `handlebars`, you can modify
@@ -61,10 +62,12 @@ the script within `package.json` as:
 ```json
 "scripts": {
   "start": "node src/index.js",
-  "dev": "nodemon src/index.js -e js, hbs, tsx", // Modify with any extensions
+  "dev": "nodemon src/index.js -e js, hbs, tsx",
   "test": "echo \"Error: no test specified\" && exit 1"
 },
 ```
+
+adding the necessary extensions after `-e` in `"dev"`
 
 ---
 Project started on: 27/08/2023
